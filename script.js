@@ -31,7 +31,10 @@
             } else if (computerSelection === playerSelection) {
                 alert(`Try again! You both picked ${playerSelection}!`);
                 return 'draw';
-            } else {
+            } else if (playerSelection !== 'rock' || playerSelection !== 'paper' || playerSelection !== 'scissors') {
+                alert('Sorry, try again.')
+                return 'fail'
+            }else {
                 alert(`You lose! ${computerSelection} beats ${playerSelection}!`);
                 return 'loss';
             }
@@ -57,6 +60,9 @@
                     break;
                 case 'draw':
                     alert(`The score stays player:${playerScore} to computer:${computerScore}.`)
+                    break;
+                case 'fail':
+                    alert(`You didn't input rock, paper or scissors. The score stays player:${playerScore} to computer:${computerScore}.`)
                     break;
                 default:
                     alert(`Sorry, something went wrong.`);
