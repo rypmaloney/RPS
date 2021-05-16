@@ -1,4 +1,4 @@
-# Rock, Paper, Scissor Game
+# Rock Paper Scissors Game
 
 This is a respoinse to a challenge to make a rock, paper, scissors game agains the computer using Javascript. It was my first time creating something from scratch using JS and went smoother than I imagined.
 
