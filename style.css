@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 1rem 6rem
+}
+#scoreboard{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
